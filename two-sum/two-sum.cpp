@@ -34,7 +34,7 @@ public:
         }
         return result;
     }
-    int binSearch(vector<pair<int, int>> nums, int number)
+    int binSearch(vector<pair<int, int>> &nums, int number)
     {
         int right = nums.size();
         int left = 0;
